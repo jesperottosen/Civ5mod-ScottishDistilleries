@@ -31,11 +31,10 @@
 	</Civilization_Leaders>
 		
 	<Civilization_FreeBuildingClasses>
-<!--		<Row>
+		<Row>
 			<CivilizationType>CIVILIZATION_SD</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_SD_DISTILLERY</BuildingClassType>
 		</Row> 
-		-->
 	</Civilization_FreeBuildingClasses>
 		
 	<Civilization_FreeTechs>

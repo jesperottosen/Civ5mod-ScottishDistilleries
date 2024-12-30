@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b6a96d61-a9a1-4d62-ac44-4a948dd037f5" version="1">
+  <Properties>
+    <Name>Scottish Distilleries</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.</Teaser>
+    <Description>[NEWLINE]Borrowing from thoseScotland Mods that came before me.
+[NEWLINE][ICON_BULLET] JFD's The Kingdom of Scotland
+[NEWLINE][ICON_BULLET] The Scottish Civilisation
+[NEWLINE][ICON_BULLET] Scotland
+[NEWLINE][ICON_BULLET] MC's Scotland
+[NEWLINE]Though there can be only one Scotland.
+[NEWLINE][NEWLINE]
+The Scottish Distillery Unique bulding is based on MOD: Winery and Distillery Additions v5</Description>
+    <Authors>yepzer</Authors>
+    <SpecialThanks>Pouakai, +ChAoS, JFD, TheTopCat</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks>
+    <Mod id="a9202374-e64d-43f7-9fbd-ed6030fa12ac" minversion="3" maxversion="999" title="MC's Scotland" />
+    <Mod id="79979315-a73b-48b2-9029-7f40f8e02f47" minversion="3" maxversion="999" title="Scotland" />
+    <Mod id="01babdde-8243-4806-b51c-80b623fe213d" minversion="1" maxversion="999" title="The Scottish Civilisation" />
+    <Mod id="fab51d41-7f5b-401c-9df0-73922a12e1d1" minversion="2" maxversion="999" title="JFD's The Kingdom of Scotland" />
+  </Blocks>
+  <Files>
+    <File md5="43D0B862A0847E71D568C5AFD7714382" import="1">Art/AlphaAtlas/SD_Alpha_128.dds</File>
+    <File md5="58787DFF68D7B9130C2D08490628AAC5" import="1">Art/AlphaAtlas/SD_Alpha_16.dds</File>
+    <File md5="2C14F957E4A6E9B1AEC28AE44DEF35B7" import="1">Art/AlphaAtlas/SD_Alpha_22.dds</File>
+    <File md5="59392B3B197BF6A104429CA291C78401" import="1">Art/AlphaAtlas/SD_Alpha_24.dds</File>
+    <File md5="67E3FD0050DA61EACF4B0BBED0D7A965" import="1">Art/AlphaAtlas/SD_Alpha_32.dds</File>
+    <File md5="5656EE69395DAEB4CA6B6452FB0C0613" import="1">Art/AlphaAtlas/SD_Alpha_45.dds</File>
+    <File md5="BA3AD7E269A4536235FC53198745A268" import="1">Art/AlphaAtlas/SD_Alpha_48.dds</File>
+    <File md5="56F0D05887275692508690129946D99D" import="1">Art/AlphaAtlas/SD_Alpha_64.dds</File>
+    <File md5="FC89B4FED9366AAB73E86FCC63D885A8" import="1">Art/AlphaAtlas/SD_Alpha_80.dds</File>
+    <File md5="E6FBFC592190657A0C807F3F7DD140C0" import="1">Art/Atlas/SD_128.dds</File>
+    <File md5="EFB80A0A4CE8548C1F2E22BB5AC3069A" import="1">Art/Atlas/SD_256.dds</File>
+    <File md5="CAF76AF2D72FD9630E2AF6A5CEC6251E" import="1">Art/Atlas/SD_32.dds</File>
+    <File md5="63B2FDE68F5526A4C8D040E439725598" import="1">Art/Atlas/SD_45.dds</File>
+    <File md5="A71D4F459CF1268930F27FA05D3661F0" import="1">Art/Atlas/SD_64.dds</File>
+    <File md5="C7F230F815568CF9A1D00B510FF08592" import="1">Art/Atlas/SD_80.dds</File>
+    <File md5="83FD3B389531A36ECC382CAD24A78AC5" import="1">Art/SD_leaderhead_WillWallace.dds</File>
+    <File md5="DC73AA6D08615DC386FA3C519BD8297C" import="1">Art/SD_DOM_Mod.dds</File>
+    <File md5="EDBF00ED59C94E9D917C7B18EC71591B" import="1">Art/SD_Map_Mod.dds</File>
+    <File md5="6B76BC35E3FFF9F3DE8384517683B026" import="1">Sounds/WillWallaceDOM.mp3</File>
+    <File md5="6B76BC35E3FFF9F3DE8384517683B026" import="1">Sounds/WillWallacePeace.mp3</File>
+    <File md5="F1C0ACDEE32D0673A27FB520DEFB55A4" import="1">Sounds/WillWallaceWar.mp3</File>
+    <File md5="EE52A5281C0B91074F0DEF1D9B6698C0" import="0">SQL/SD_Diplomacy.sql</File>
+    <File md5="8606CD440D18C7691B08EA6D136DCD45" import="0">XML/SD_Distillery.xml</File>
+    <File md5="0527BDB75BFBD3D03D55C78A1EEA2A17" import="0">XML/SD_IconTextureAtlases.xml</File>
+    <File md5="90DA8791DC978C590DA5022B82C8F3ED" import="0">XML/SD_Leaderhead.xml</File>
+    <File md5="2B65AC99062419CA3C83678B78AA1885" import="0">XML/SD_Sounds.xml</File>
+    <File md5="1B2FB6FC1D77550CC3F526BBA0D10E8B" import="0">XML/SD_Diplomacy.xml</File>
+    <File md5="179ECCE8693E4E7AA80B02078C2C809C" import="0">XML/SD_Civilization.xml</File>
+    <File md5="3B772CBC1FE69E5D70C6B8D195E7CA2A" import="0">XML/SD_Leader.xml</File>
+    <File md5="3CD2A021FABA5DC2E77EC9E192AAF13F" import="0">XML/SD_Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/SD_Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/SD_Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/SD_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/SD_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/SD_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/SD_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>XML/SD_Leaderhead.xml</UpdateDatabase>
+      <UpdateDatabase>XML/SD_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/SD_Distillery.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

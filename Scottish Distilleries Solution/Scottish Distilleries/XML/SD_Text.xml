@@ -18,26 +18,26 @@
 			<Text>
 				Wilyham Wallas,
 				[NEWLINE][NEWLINE]
-				Our antecessowris that we suld of reide,
-				And hald in mynde thar nobille worthi deid,
-				We lat ourslide throu verray sleuthfulnes,
-				And castis us ever till uther besynes.
-				Till honour ennymyis is our haile entent,
-				It has beyne seyne in thir tymys bywent.
-				Our ald ennemys cummyn of Saxonys blud,
-				That nevyr yeit to Scotland wald do gud,
-				But ever on fors and contrar haile thar will,
-				Quhow gret kyndnes thar has beyne kyth thaim till.
-				It is weyle knawyne on mony divers syde,
-				How they haff wrocht in to thar mychty pryde,
-				To hald Scotland at undyr evermar,
-				Bot God abuff has maid thar mycht to par.
-				Yhit we suld thynk one our bearis befor,
-				Of that parablys as now I say no mor.
-				We reide of ane rycht famous of renowne,
-				Of worthi blude that ryngis in this regioune,
-				And hensfurth I will my proces hald,
-				Of Wilyham Wallas yhe haf hard beyne tald.
+				Our antecessowris that we suld of reide,[NEWLINE]
+				And hald in mynde thar nobille worthi deid,[NEWLINE]
+				We lat ourslide throu verray sleuthfulnes,[NEWLINE]
+				And castis us ever till uther besynes.[NEWLINE]
+				Till honour ennymyis is our haile entent,[NEWLINE]
+				It has beyne seyne in thir tymys bywent.[NEWLINE]
+				Our ald ennemys cummyn of Saxonys blud,[NEWLINE]
+				That nevyr yeit to Scotland wald do gud,[NEWLINE]
+				But ever on fors and contrar haile thar will,[NEWLINE]
+				Quhow gret kyndnes thar has beyne kyth thaim till.[NEWLINE]
+				It is weyle knawyne on mony divers syde,[NEWLINE]
+				How they haff wrocht in to thar mychty pryde,[NEWLINE]
+				To hald Scotland at undyr evermar,[NEWLINE]
+				Bot God abuff has maid thar mycht to par.[NEWLINE]
+				Yhit we suld thynk one our bearis befor,[NEWLINE]
+				Of that parablys as now I say no mor.[NEWLINE]
+				We reide of ane rycht famous of renowne,[NEWLINE]
+				Of worthi blude that ryngis in this regioune,[NEWLINE]
+				And hensfurth I will my proces hald,[NEWLINE]
+				Of Wilyham Wallas yhe haf hard beyne tald.[NEWLINE]
 				[NEWLINE][NEWLINE]
 				Can you build a civilization that will stand the test of time?</Text>
 		</Row>
@@ -131,11 +131,26 @@
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_LAST_OF_THE_FREE">
 			<Text>
-				Melee units receive a combat boost when there are two or more adjacent enemy units.
+				Melee units receive a combat boost when there are two or more adjacent enemy units.[NEWLINE]
 				+1 [ICON_CULTURE] Culture for every two hill tiles adjacent to a city.
 			</Text>
 		</Row>
 		
+		<!-- Scottish Distillery -->
+		<Row Tag="TXT_KEY_BUILDING_SD_DISTILLERY">
+			<Text>Scottish Distillery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SD_DISTILLERY_STRATEGY">
+			<Text>The Scottish Distillery adds a small increase to a city's [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SD_DISTILLERY_TEXT">
+			<Text>Distillation is a method of separating mixtures based on differences in volatility 
+			of components in a boiling liquid mixture. Distillation is a unit operation, or a 
+			physical separation process, and not a chemical reaction.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SD_DISTILLERY_HELP">
+			<Text>City must have a river nearby</Text>
+		</Row>
 		
 		<!-- City List -->
 		<Row Tag="TXT_KEY_CITY_NAME_SD_01">

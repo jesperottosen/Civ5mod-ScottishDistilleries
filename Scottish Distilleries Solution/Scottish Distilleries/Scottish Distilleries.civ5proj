@@ -7,13 +7,15 @@
     <Guid>b6a96d61-a9a1-4d62-ac44-4a948dd037f5</Guid>
     <ModVersion>1</ModVersion>
     <Stability>Alpha</Stability>
-    <Teaser>Cities with distillery names, UB distillery and UB highlander.</Teaser>
+    <Teaser>Cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.</Teaser>
     <Description>[NEWLINE]Borrowing from thoseScotland Mods that came before me.
 [NEWLINE][ICON_BULLET] JFD's The Kingdom of Scotland
 [NEWLINE][ICON_BULLET] The Scottish Civilisation
 [NEWLINE][ICON_BULLET] Scotland
 [NEWLINE][ICON_BULLET] MC's Scotland
-[NEWLINE]Though there can be only one Scotland.</Description>
+[NEWLINE]Though there can be only one Scotland.
+[NEWLINE][NEWLINE]
+The Scottish Distillery Unique bulding is based on MOD: Winery and Distillery Additions v5</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>Pouakai, +ChAoS, JFD, TheTopCat</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -24,7 +26,8 @@
     <SupportsMac>true</SupportsMac>
     <AssemblyName>Scottish Distilleries</AssemblyName>
     <RootNamespace>Scottish Distilleries</RootNamespace>
-    <ModReferences />
+    <ModReferences>
+    </ModReferences>
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
     <ReloadUnitSystem>true</ReloadUnitSystem>
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
@@ -107,6 +110,11 @@
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>XML/SD_IconTextureAtlases.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/SD_Distillery.xml</FileName>
       </Action>
     </ModActions>
     <ReloadAudioSystem>true</ReloadAudioSystem>
@@ -216,6 +224,10 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="SQL\SD_Diplomacy.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\SD_Distillery.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

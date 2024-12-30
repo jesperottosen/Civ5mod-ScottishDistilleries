@@ -70,6 +70,7 @@
 			<Response>TXT_KEY_LEADER_SD_WILLWALLACE_GREETING_POLITE_HELLO_%</Response>
 		</Row>
 	</Diplomacy_Responses>
+	
 	<Leader_MajorCivApproachBiases>
 		<Row>
 			<LeaderType>LEADER_SD_WILLWALLACE</LeaderType>
@@ -107,6 +108,7 @@
 			<Bias>6</Bias>
 		</Row>
 	</Leader_MajorCivApproachBiases>
+	
 	<Leader_MinorCivApproachBiases>
 		<Row>
 			<LeaderType>LEADER_SD_WILLWALLACE</LeaderType>
@@ -134,6 +136,7 @@
 			<Bias>4</Bias>
 		</Row>
 	</Leader_MinorCivApproachBiases>
+	
 	<Leader_Flavors>
 		<Row>
 			<LeaderType>LEADER_SD_WILLWALLACE</LeaderType>
