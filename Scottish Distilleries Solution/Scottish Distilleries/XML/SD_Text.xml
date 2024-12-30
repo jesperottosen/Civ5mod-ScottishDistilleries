@@ -118,10 +118,10 @@
 		<Row Tag="TXT_KEY_PROMOTION_SD_LAND_OF_THE_FREE_INFO_HELP">
 			<Text>Combat bonus with multiple adjacent enemy units</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_DEFENDER_OF_SCOTLAND">
+		<Row Tag="TXT_KEY_PROMOTION_SD_DEFENDER_OF_SCOTLAND">
 			<Text>Fierce Highlander</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_DEFENDER_OF_SCOTLAND_HELP">
+		<Row Tag="TXT_KEY_PROMOTION_SD_DEFENDER_OF_SCOTLAND_HELP">
 			<Text>50% combat boost against fortified units. </Text>
 		</Row>
 
@@ -131,8 +131,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_LAST_OF_THE_FREE">
 			<Text>
-				Melee units receive a combat boost when there are two or more adjacent enemy units.[NEWLINE]
-				+1 [ICON_CULTURE] Culture for every two hill tiles adjacent to a city.
+				Melee units receive a combat boost when there are two or more adjacent enemy units.	+1 [ICON_CULTURE] Culture for every two hill tiles adjacent to a city.
 			</Text>
 		</Row>
 		

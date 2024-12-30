@@ -54,13 +54,11 @@
 	</Civilization_FreeUnits>
 		
 	<Civilization_UnitClassOverrides>
-		<!-- 
 		<Row>
 			<CivilizationType>CIVILIZATION_SD</CivilizationType>
 			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
-			<UnitType>UNIT_SD_SCOTTISH_GALLOWGLASS</UnitType>
+			<UnitType>UNIT_LONGSWORDSMAN</UnitType>
 		</Row>
-		-->
 	</Civilization_UnitClassOverrides>
 
 	<Civilization_Start_Region_Priority>
