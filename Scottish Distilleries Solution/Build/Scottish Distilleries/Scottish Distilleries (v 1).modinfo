@@ -4,13 +4,14 @@
     <Name>Scottish Distilleries</Name>
     <Stability>Alpha</Stability>
     <Teaser>Cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.</Teaser>
-    <Description>Borrowing from the many Scotland Mods that came before me.
-[NEWLINE][ICON_BULLET] JFD's The Kingdom of Scotland
-[NEWLINE][ICON_BULLET] The Scottish Civilisation
-[NEWLINE][ICON_BULLET] Scotland
-[NEWLINE][ICON_BULLET] MC's Scotland
-[NEWLINE]Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].
-[NEWLINE][NEWLINE]
+    <Description>Borrowing from the many Scotland Mods that came before me.[NEWLINE]
+[ICON_BULLET] JFD's The Kingdom of Scotland[NEWLINE]
+[ICON_BULLET] The Scottish Civilisation[NEWLINE]
+[ICON_BULLET] Scotland[NEWLINE]
+[ICON_BULLET] MC's Scotland[NEWLINE]
+[NEWLINE]
+Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].[NEWLINE]
+[NEWLINE]
 The Scottish Distillery Unique bulding is based on MOD: Winery and Distillery Additions v5</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>Pouakai, +ChAoS, JFD, TheTopCat, AUSTINNOYES</SpecialThanks>
@@ -58,25 +59,25 @@ The Scottish Distillery Unique bulding is based on MOD: Winery and Distillery Ad
     <File md5="6B76BC35E3FFF9F3DE8384517683B026" import="1">Sounds/WillWallaceDOM.mp3</File>
     <File md5="6B76BC35E3FFF9F3DE8384517683B026" import="1">Sounds/WillWallacePeace.mp3</File>
     <File md5="F1C0ACDEE32D0673A27FB520DEFB55A4" import="1">Sounds/WillWallaceWar.mp3</File>
-    <File md5="7AEF66388E712A9C0CFD968EBDE251D8" import="0">XML/SD_UnitPromotions.xml</File>
-    <File md5="8606CD440D18C7691B08EA6D136DCD45" import="0">XML/SD_Distillery.xml</File>
+    <File md5="879EDA01E8462B7ED944C8C0F2181A91" import="0">XML/SD_UnitPromotions.xml</File>
+    <File md5="624053086555A167C602D33568E1AEA4" import="0">XML/SD_Distillery.xml</File>
     <File md5="0527BDB75BFBD3D03D55C78A1EEA2A17" import="0">XML/SD_IconTextureAtlases.xml</File>
     <File md5="90DA8791DC978C590DA5022B82C8F3ED" import="0">XML/SD_Leaderhead.xml</File>
     <File md5="2B65AC99062419CA3C83678B78AA1885" import="0">XML/SD_Sounds.xml</File>
-    <File md5="2DB94903F861C2329FAE82293FC9BAE7" import="0">XML/SD_Civilization.xml</File>
-    <File md5="3B772CBC1FE69E5D70C6B8D195E7CA2A" import="0">XML/SD_Leader.xml</File>
-    <File md5="20D00318D1396C19C0C90B9E20BB20D4" import="0">XML/SD_Text.xml</File>
+    <File md5="5448B28088337574C6BA424CD9B65273" import="0">XML/SD_Civilization.xml</File>
+    <File md5="A6043260D6D2F5A0D341B261340EF903" import="0">XML/SD_Leader.xml</File>
+    <File md5="353FD010DFFC5B6A99A0AE8424E91E56" import="0">XML/SD_Text.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
       <UpdateDatabase>XML/SD_Distillery.xml</UpdateDatabase>
-      <UpdateDatabase>XML/SD_Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/SD_UnitPromotions.xml</UpdateDatabase>
       <UpdateDatabase>XML/SD_Civilization.xml</UpdateDatabase>
       <UpdateDatabase>XML/SD_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/SD_Text.xml</UpdateDatabase>
       <UpdateDatabase>XML/SD_Sounds.xml</UpdateDatabase>
       <UpdateDatabase>XML/SD_Leaderhead.xml</UpdateDatabase>
       <UpdateDatabase>XML/SD_IconTextureAtlases.xml</UpdateDatabase>
-      <UpdateDatabase>XML/SD_UnitPromotions.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>

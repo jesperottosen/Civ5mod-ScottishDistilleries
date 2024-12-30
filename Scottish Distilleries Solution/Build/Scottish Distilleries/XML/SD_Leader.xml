@@ -26,12 +26,14 @@
 			<IconAtlas>SD_ATLAS</IconAtlas>
 		</Row>
 	</Leaders>
+	
 	<Leader_Traits>
 		<Row>
 			<LeaderType>LEADER_SD_WILLWALLACE</LeaderType>
 			<TraitType>TRAIT_LAST_OF_THE_FREE</TraitType>
 		</Row>
 	</Leader_Traits>
+	
 	<Traits>
 		<Row>
 			<Type>TRAIT_LAST_OF_THE_FREE</Type>
@@ -39,6 +41,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_LAST_OF_THE_FREE_SHORT</ShortDescription>
 		</Row>
 	</Traits>
+	
 	<Trait_FreePromotionUnitCombats>
 		<Row>
 			<TraitType>TRAIT_LAST_OF_THE_FREE</TraitType>

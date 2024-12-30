@@ -12,7 +12,7 @@
 	<Buildings>
 		<Row>
 			<Type>BUILDING_SD_DISTILLERY</Type>
-			<BuildingClass>BUILDINGCLASS_DISTILLERY</BuildingClass>
+			<BuildingClass>BUILDINGCLASS_SD_DISTILLERY</BuildingClass>
 			<Cost>120</Cost>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SD_DISTILLERY</Description>
@@ -20,6 +20,8 @@
 			<Strategy>TXT_KEY_BUILDING_SD_DISTILLERY_STRATEGY</Strategy>
 			<Help>TXT_KEY_BUILDING_SD_DISTILLERY_HELP</Help>
 			<ArtDefineTag>ART_DEF_RESOURCE_SUGAR</ArtDefineTag>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>

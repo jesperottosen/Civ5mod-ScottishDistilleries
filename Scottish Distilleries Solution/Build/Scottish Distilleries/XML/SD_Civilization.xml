@@ -32,9 +32,9 @@
 		
 	<Civilization_FreeBuildingClasses>
 		<Row>
-			<CivilizationType>CIVILIZATION_SD</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_SD_DISTILLERY</BuildingClassType>
-		</Row> 
+			<CivilizationType>CIVILIZATION_MC_SCOTLAND</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
 	</Civilization_FreeBuildingClasses>
 		
 	<Civilization_FreeTechs>
@@ -61,6 +61,15 @@
 		</Row>
 	</Civilization_UnitClassOverrides>
 
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SD</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SD_DISTILLERY</BuildingClassType>
+			<BuildingType>BUILDING_SD_DISTILLERY</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	
+	
 	<Civilization_Start_Region_Priority>
 		<Row>
 			<CivilizationType>CIVILIZATION_SD</CivilizationType>

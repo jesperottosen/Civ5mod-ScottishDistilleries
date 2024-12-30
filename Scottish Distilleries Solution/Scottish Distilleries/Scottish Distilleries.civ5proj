@@ -3,19 +3,23 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <ProjectGuid>{3036bbfc-eee8-42a9-a594-85712257fa87}</ProjectGuid>
-    <Name>Scottish Distilleries</Name>
+    <Name>Scottish Whiskey Distilleries</Name>
     <Guid>b6a96d61-a9a1-4d62-ac44-4a948dd037f5</Guid>
     <ModVersion>1</ModVersion>
     <Stability>Alpha</Stability>
     <Teaser>Cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.</Teaser>
-    <Description>Borrowing from the many Scotland Mods that came before me.
-[NEWLINE][ICON_BULLET] JFD's The Kingdom of Scotland
-[NEWLINE][ICON_BULLET] The Scottish Civilisation
-[NEWLINE][ICON_BULLET] Scotland
-[NEWLINE][ICON_BULLET] MC's Scotland
-[NEWLINE]Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].
-[NEWLINE][NEWLINE]
-The Scottish Distillery Unique bulding is based on MOD: Winery and Distillery Additions v5</Description>
+    <Description>50 cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], 
+UB distillery and UB highlander.[NEWLINE]
+
+Borrowing from the many Scotland Mods that came before me.[NEWLINE]
+[ICON_BULLET] JFD's The Kingdom of Scotland[NEWLINE]
+[ICON_BULLET] The Scottish Civilisation[NEWLINE]
+[ICON_BULLET] Scotland[NEWLINE]
+[ICON_BULLET] MC's Scotland[NEWLINE]
+Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].[NEWLINE][NEWLINE]
+
+The Scottish Distillery Unique bulding is based on MOD: Winery and Distillery Additions v5.[NEWLINE]
+Plain distilleries added for all civilizations.</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>Pouakai, +ChAoS, JFD, TheTopCat, AUSTINNOYES</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -74,45 +78,46 @@ The Scottish Distillery Unique bulding is based on MOD: Winery and Distillery Ad
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/SD_Distillery.xml</FileName>
+        <FileName>XML/SWD_Buildings.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/SD_Text.xml</FileName>
+        <FileName>XML/SWD_UnitPromotions.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/SD_Civilization.xml</FileName>
+        <FileName>XML/SWD_Civilization.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/SD_Leader.xml</FileName>
+        <FileName>XML/SWD_Leader.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/SD_Sounds.xml</FileName>
+        <FileName>XML/SWD_Text.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/SD_Leaderhead.xml</FileName>
+        <FileName>XML/SWD_Sounds.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/SD_IconTextureAtlases.xml</FileName>
+        <FileName>XML/SWD_Leaderhead.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/SD_UnitPromotions.xml</FileName>
+        <FileName>XML/SWD_IconTextureAtlases.xml</FileName>
       </Action>
     </ModActions>
     <ReloadAudioSystem>true</ReloadAudioSystem>
+    <Homepage>http://https://github.com/jesperottosen/Civ5mod-ScottishDistilleries</Homepage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -133,75 +138,75 @@ The Scottish Distillery Unique bulding is based on MOD: Winery and Distillery Ad
     <Folder Include="XML" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Art\AlphaAtlas\SD_Alpha_128.dds">
+    <Content Include="Art\AlphaAtlas\SWD_Alpha_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SD_Alpha_16.dds">
+    <Content Include="Art\AlphaAtlas\SWD_Alpha_16.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SD_Alpha_22.dds">
+    <Content Include="Art\AlphaAtlas\SWD_Alpha_22.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SD_Alpha_24.dds">
+    <Content Include="Art\AlphaAtlas\SWD_Alpha_24.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SD_Alpha_32.dds">
+    <Content Include="Art\AlphaAtlas\SWD_Alpha_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SD_Alpha_45.dds">
+    <Content Include="Art\AlphaAtlas\SWD_Alpha_45.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SD_Alpha_48.dds">
+    <Content Include="Art\AlphaAtlas\SWD_Alpha_48.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SD_Alpha_64.dds">
+    <Content Include="Art\AlphaAtlas\SWD_Alpha_64.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SD_Alpha_80.dds">
+    <Content Include="Art\AlphaAtlas\SWD_Alpha_80.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Atlas\SD_128.dds">
+    <Content Include="Art\Atlas\SWD_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Atlas\SD_256.dds">
+    <Content Include="Art\Atlas\SWD_256.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Atlas\SD_32.dds">
+    <Content Include="Art\Atlas\SWD_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Atlas\SD_45.dds">
+    <Content Include="Art\Atlas\SWD_45.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Atlas\SD_64.dds">
+    <Content Include="Art\Atlas\SWD_64.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Atlas\SD_80.dds">
+    <Content Include="Art\Atlas\SWD_80.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\SD_leaderhead_WillWallace.dds">
+    <Content Include="Art\SWD_leaderhead_WillWallace.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\SD_DOM_Mod.dds">
+    <Content Include="Art\SWD_DOM_Mod.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\SD_Map_Mod.dds">
+    <Content Include="Art\SWD_Map_Mod.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -217,35 +222,35 @@ The Scottish Distillery Unique bulding is based on MOD: Winery and Distillery Ad
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="XML\SD_UnitPromotions.xml">
+    <Content Include="XML\SWD_UnitPromotions.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\SD_Distillery.xml">
+    <Content Include="XML\SWD_Buildings.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\SD_IconTextureAtlases.xml">
+    <Content Include="XML\SWD_IconTextureAtlases.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\SD_Leaderhead.xml">
+    <Content Include="XML\SWD_Leaderhead.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\SD_Sounds.xml">
+    <Content Include="XML\SWD_Sounds.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\SD_Civilization.xml">
+    <Content Include="XML\SWD_Civilization.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\SD_Leader.xml">
+    <Content Include="XML\SWD_Leader.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\SD_Text.xml">
+    <Content Include="XML\SWD_Text.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
