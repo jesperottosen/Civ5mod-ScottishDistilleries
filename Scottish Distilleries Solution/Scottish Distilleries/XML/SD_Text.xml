@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by yepzer on 12/29/2024 3:09:06 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Denonyms -->
+		<Row Tag="TXT_KEY_SD_DESC">
+			<Text>Scottish Distilleries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SD_SHORT_DESC">
+			<Text>Scottish Distilleries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SD_ADJECTIVE">
+			<Text>Scottish</Text>
+		</Row>
+			
+		<!--  DOM Text -->
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_SD_TEXT">
+			<Text>
+				Wilyham Wallas,
+				[NEWLINE][NEWLINE]
+				Our antecessowris that we suld of reide,
+				And hald in mynde thar nobille worthi deid,
+				We lat ourslide throu verray sleuthfulnes,
+				And castis us ever till uther besynes.
+				Till honour ennymyis is our haile entent,
+				It has beyne seyne in thir tymys bywent.
+				Our ald ennemys cummyn of Saxonys blud,
+				That nevyr yeit to Scotland wald do gud,
+				But ever on fors and contrar haile thar will,
+				Quhow gret kyndnes thar has beyne kyth thaim till.
+				It is weyle knawyne on mony divers syde,
+				How they haff wrocht in to thar mychty pryde,
+				To hald Scotland at undyr evermar,
+				Bot God abuff has maid thar mycht to par.
+				Yhit we suld thynk one our bearis befor,
+				Of that parablys as now I say no mor.
+				We reide of ane rycht famous of renowne,
+				Of worthi blude that ryngis in this regioune,
+				And hensfurth I will my proces hald,
+				Of Wilyham Wallas yhe haf hard beyne tald.
+				[NEWLINE][NEWLINE]
+				Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		
+		<!-- Diplo lines -->
+		<Row Tag="TXT_KEY_LEADER_SD_WILLWALLACE_GREETING_1">
+			<Text>Welcome to the domain of free men. Be warned that we will fight dearly for our lives if it comes to that.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SD_WILLWALLACE_FIRST_GREETING_2">
+			<Text>A great king you are! Tell me, do your people hold liberty dearly to their hearts? Or do they forsake it?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SD_WILLWALLACE_DEFEATED_1">
+			<Text>What I feared has happened. An enemy of the worst kind has triumphed over us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SD_WILLWALLACE_DEFEATED_2">
+			<Text>You may take our lands, but you may never take our freedom. We will return. </Text>
+		</Row>
+		
+		<!-- Civilopedias -->
+		<Row Tag="TXT_KEY_SD">
+			<Text>Scottish Distilleries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_SD_TITLE">
+			<Text>Scottish Distilleries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_SD_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_SD_TEXT_1">
+			<Text>According to the Scotch Whisky Association there were 151 distilleries licensed to produce Scotch whisky as of May 2024.</Text>
+		</Row>
+
+		<!-- Leader Civilopedia -->
+		<Row Tag="TXT_KEY_LEADER_SD_WILLWALLACE_DESC">
+			<Text>Sir William Wallace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SD_WILLWALLACE_LIVED">
+			<Text>1270 – 1329 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SD_WILLWALLACE_NAME">
+			<Text>William Wallace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SD_WILLWALLACE_SUBTITLE">
+			<Text>Hero of Scotland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SD_WILLWALLACE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SD_WILLWALLACE_TEXT_1">
+			<Text>
+				William Wallace is one of Scotland's most revered heroes. He began as an outlaw, but became a leader of men,
+				taking victory over the English at Stirling Bridge in 1297. He was not of noble blood, and perhaps this is why his
+				memory is held so dear.
+				[NEWLINE][NEWLINE]
+				Sir William Wallace was a Scottish knight who became one of the main leaders during the First War of Scottish Independence.
+				In August 1305, Wallace was captured in Robroyston, near Glasgow, and handed over to King Edward I of England, 
+				who had him hanged, drawn and quartered for high treason and crimes against English civilians.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_SD_WILLWALLACE_FACTOID_HEADING">
+			<Text>William Wallace Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SD_WILLWALLACE_FACTOID_TEXT">
+			<Text>Sir William Wallace (Scottish Gaelic: Uilleam Uallas, pronounced [ˈɯʎam ˈuəl̪ˠəs̪]; Norman French: William le Waleys.</Text>
+		</Row>
+
+		<!-- Promotion Tags -->
+		<Row Tag="TXT_KEY_PROMOTION_SD_LAND_OF_THE_FREE">
+			<Text>Last of the Free</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SD_LAND_OF_THE_FREE_HELP">
+			<Text>Combat bonus with multiple adjacent enemy units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SD_LAND_OF_THE_FREE_INFO">
+			<Text>Last of the Free</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SD_LAND_OF_THE_FREE_INFO_HELP">
+			<Text>Combat bonus with multiple adjacent enemy units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENDER_OF_SCOTLAND">
+			<Text>Fierce Highlander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENDER_OF_SCOTLAND_HELP">
+			<Text>50% combat boost against fortified units. </Text>
+		</Row>
+
+		<!-- Unique Ability -->
+		<Row Tag="TXT_KEY_TRAIT_LAST_OF_THE_FREE_SHORT">
+			<Text>Last of the Free</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_LAST_OF_THE_FREE">
+			<Text>
+				Melee units receive a combat boost when there are two or more adjacent enemy units.
+				+1 [ICON_CULTURE] Culture for every two hill tiles adjacent to a city.
+			</Text>
+		</Row>
+		
+		
+		<!-- City List -->
+		<Row Tag="TXT_KEY_CITY_NAME_SD_01">
+			<Text>Glenturret 1763</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_02">
+			<Text>Bowmore 1779</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_03">
+			<Text>Strathisla 1786</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_04">
+			<Text>Balblair 1790</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_05">
+			<Text>Oban 1794</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_06">
+			<Text>Glen Garioch 1797</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_07">
+			<Text>Blair Athol 1798</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_08">
+			<Text>Highland Park 1798</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_09">
+			<Text>Rosebank 1798</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_10">
+			<Text>Tobermory 1798</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_11">
+			<Text>Glenburgie 1810</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_12">
+			<Text>Jura 1810</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_13">
+			<Text>Royal Brackla 1812</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_14">
+			<Text>Ardbeg 1815</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_15">
+			<Text>Laphroaig 1815</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_16">
+			<Text>Lagavulin 1816</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_17">
+			<Text>Bladnoch 1817</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_18">
+			<Text>Teaninich 1817</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_19">
+			<Text>Brora 1819</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SD_20">
+			<Text>Linkwood 1821</Text>
+		</Row>
+
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_EDINBURGH"/>
+			<Set Text="Ynys Wydryn"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_ABERDEEN"/>
+			<Set Text="Iska"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_GLASGOW"/>
+			<Set Text="Eborakon"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_STIRLING"/>
+			<Set Text="Moridunon"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_DUNDEE"/>
+			<Set Text="Sorviodunum"/>
+		</Update>
+
+
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_SD_00">
+			<Text>Nessie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SD_01">
+			<Text>Robert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SD_02">
+			<Text>Angus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SD_03">
+			<Text>Ewan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SD_04">
+			<Text>Alastair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SD_05">
+			<Text>Fiona</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SD_06">
+			<Text>Mary</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		
+	</Language_en_US>
+  
+</GameData>
