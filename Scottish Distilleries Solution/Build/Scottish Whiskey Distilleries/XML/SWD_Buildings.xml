@@ -83,11 +83,6 @@
 
 	<Building_Flavors>
 		<Row>
-			<BuildingType>BUILDING_PLAINDISTILLERY</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_WHISKEYDISTILLERY</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>2</Flavor>

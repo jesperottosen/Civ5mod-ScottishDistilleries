@@ -8,18 +8,13 @@
     <ModVersion>1</ModVersion>
     <Stability>Alpha</Stability>
     <Teaser>Cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.</Teaser>
-    <Description>50 cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], 
-UB distillery and UB highlander.[NEWLINE]
-
-Borrowing from the many Scotland Mods that came before me.[NEWLINE]
-[ICON_BULLET] JFD's The Kingdom of Scotland[NEWLINE]
-[ICON_BULLET] The Scottish Civilisation[NEWLINE]
-[ICON_BULLET] Scotland[NEWLINE]
-[ICON_BULLET] MC's Scotland[NEWLINE]
-Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].[NEWLINE][NEWLINE]
-
-The Scottish Distillery Unique bulding is based on MOD: Winery and Distillery Additions v5.[NEWLINE]
-Plain distilleries added for all civilizations.</Description>
+    <Description>50 cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.[NEWLINE]
+[NEWLINE]
+Borrowing from the many Scotland Mods that came before me.
+JFD's The Kingdom of Scotland, Scottish Civilisation, Scotland, MC's Scotland. Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].[NEWLINE]
+[NEWLINE]
+The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Additions v5. Plain distilleries added for all civilizations.[NEWLINE]
+[NEWLINE]</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>Pouakai, +ChAoS, JFD, TheTopCat, AUSTINNOYES</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>

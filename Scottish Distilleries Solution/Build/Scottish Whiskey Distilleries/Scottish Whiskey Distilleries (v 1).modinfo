@@ -4,18 +4,16 @@
     <Name>Scottish Whiskey Distilleries</Name>
     <Stability>Alpha</Stability>
     <Teaser>Cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.</Teaser>
-    <Description>50 cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], 
-UB distillery and UB highlander.[NEWLINE]
-
-Borrowing from the many Scotland Mods that came before me.[NEWLINE]
-[ICON_BULLET] JFD's The Kingdom of Scotland[NEWLINE]
-[ICON_BULLET] The Scottish Civilisation[NEWLINE]
-[ICON_BULLET] Scotland[NEWLINE]
-[ICON_BULLET] MC's Scotland[NEWLINE]
-Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].[NEWLINE][NEWLINE]
-
-The Scottish Distillery Unique bulding is based on MOD: Winery and Distillery Additions v5.[NEWLINE]
-Plain distilleries added for all civilizations.</Description>
+    <Description>[NEWLINE]50 cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.
+[NEWLINE]
+[NEWLINE]Borrowing from the many Scotland Mods that came before me.
+JFD's The Kingdom of Scotland, Scottish Civilisation, 
+Scotland, MC's Scotland.[NEWLINE]
+Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].[NEWLINE]
+[NEWLINE]
+The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Additions v5.[NEWLINE]
+Plain distilleries added for all civilizations.[NEWLINE]
+[NEWLINE]</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>Pouakai, +ChAoS, JFD, TheTopCat, AUSTINNOYES</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
@@ -63,14 +61,14 @@ Plain distilleries added for all civilizations.</Description>
     <File md5="6B76BC35E3FFF9F3DE8384517683B026" import="1">Sounds/WillWallaceDOM.mp3</File>
     <File md5="6B76BC35E3FFF9F3DE8384517683B026" import="1">Sounds/WillWallacePeace.mp3</File>
     <File md5="F1C0ACDEE32D0673A27FB520DEFB55A4" import="1">Sounds/WillWallaceWar.mp3</File>
-    <File md5="09931D1B81A9D8CC3270FC7DB3B5F111" import="0">XML/SWD_UnitPromotions.xml</File>
-    <File md5="ED0FD0F0602600DC665D50D2FB98049E" import="0">XML/SWD_Buildings.xml</File>
+    <File md5="82E46E548D8192E518838DC303298DDC" import="0">XML/SWD_UnitPromotions.xml</File>
+    <File md5="05182F0681BA696DAAA14F877F35A1F8" import="0">XML/SWD_Buildings.xml</File>
     <File md5="BAC7090C5F53FB6154C3DD0146DB8AA3" import="0">XML/SWD_IconTextureAtlases.xml</File>
     <File md5="47CD16CE8743B63E4A4AAE3EE525E3D2" import="0">XML/SWD_Leaderhead.xml</File>
     <File md5="B7AAA9CDD8E687F5AD8046C9E49FFE28" import="0">XML/SWD_Sounds.xml</File>
-    <File md5="FE720F37637ECB10EC222BB770883D37" import="0">XML/SWD_Civilization.xml</File>
-    <File md5="E08E860A6866CFA3AC1468D0AFB6CB8F" import="0">XML/SWD_Leader.xml</File>
-    <File md5="5A49B66A2583F40ED1E0B2F33E2E4E9F" import="0">XML/SWD_Text.xml</File>
+    <File md5="26C04169E4516E722BCF3126B5505574" import="0">XML/SWD_Civilization.xml</File>
+    <File md5="C0D72191148BEB254C0EB8BE80B6C134" import="0">XML/SWD_Leader.xml</File>
+    <File md5="09CDA26B3C9813A35E360486A573ABF9" import="0">XML/SWD_Text.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

@@ -19,7 +19,7 @@
 			<MapImage>SWD_Map_Mod.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_DAWN_OF_MAN_SWD_TEXT</DawnOfManQuote>
 			<DawnOfManImage>SWD_DOM_Mod.dds</DawnOfManImage>
-			<SoundtrackTag>England</SoundtrackTag>
+			<SoundtrackTag>SND_DOM_SPEECH_SWD_WILLWALLACE</SoundtrackTag>
 		</Row>
 	</Civilizations>
 		
@@ -56,7 +56,7 @@
 	<Civilization_UnitClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_SWD</CivilizationType>
-			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_GUN</UnitClassType>
 			<UnitType>UNIT_LONGSWORDSMAN</UnitType>
 		</Row>
 	</Civilization_UnitClassOverrides>

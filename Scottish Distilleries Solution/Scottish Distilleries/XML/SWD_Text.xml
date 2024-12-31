@@ -116,23 +116,17 @@
 		</Row>
 
 		<!-- Promotion Tags -->
-		<Row Tag="TXT_KEY_PROMOTION_SWD_LAND_OF_THE_FREE">
+		<Row Tag="TXT_KEY_PROMOTION_SWD_LAST_OF_THE_FREE">
 			<Text>Last of the Free</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_SWD_LAND_OF_THE_FREE_HELP">
-			<Text>Combat bonus with multiple adjacent enemy units</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_SWD_LAND_OF_THE_FREE_INFO">
-			<Text>Last of the Free</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_SWD_LAND_OF_THE_FREE_INFO_HELP">
-			<Text>Combat bonus with multiple adjacent enemy units</Text>
+		<Row Tag="TXT_KEY_PROMOTION_SWD_LAST_OF_THE_FREE_HELP">
+			<Text>Combat bonus in hills (attack and defense)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SWD_DEFENDER_OF_SCOTLAND">
 			<Text>Fierce Highlander</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SWD_DEFENDER_OF_SCOTLAND_HELP">
-			<Text>50% combat boost against fortified units. </Text>
+			<Text>50% combat boost against fortified units.</Text>
 		</Row>
 
 		<!-- Unique Ability -->
@@ -141,7 +135,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_LAST_OF_THE_FREE">
 			<Text>
-				Melee units receive a combat boost when there are two or more adjacent enemy units.
+				Combat bonus in hills (attack and defense) and combat bonus for fortified units.
 			</Text>
 		</Row>
 		
@@ -150,7 +144,7 @@
 			<Text>Whiskey Distillery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SWD_DISTILLERY_STRATEGY">
-			<Text>The Whiskey Distillery adds a small increase to a city's [ICON_GOLD] Gold and promotes Great Scientist</Text>
+			<Text>The Whiskey Distillery adds a small increase to a city's [ICON_GOLD] Gold and promotes science and happiness.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SWD_DISTILLERY_TEXT">
 			<Text>Distillation is a method of separating mixtures based on differences in volatility 
@@ -164,10 +158,13 @@
 			<Text>Plain Distillery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DISTILLERY_STRATEGY">
-			<Text>The distillery adds a small increase to a city's [ICON_GOLD] Gold output if the city has an improved source of [ICON_RES_SUGAR] Sugar or [ICON_RES_WHEAT] Wheat nearby.</Text>
+			<Text>The distillery adds a small increase to a city's [ICON_GOLD] Gold output if the city has an 
+			improved source of [ICON_RES_SUGAR] Sugar or [ICON_RES_WHEAT] Wheat nearby.
+		</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_DISTILLERY_TEXT">
-			<Text>Distillation is a method of separating mixtures based on differences in volatility of components in a boiling liquid mixture. Distillation is a unit operation, or a physical separation process, and not a chemical reaction.</Text>
+			<Text>Distillation is a method of separating mixtures based on differences in volatility of components in a boiling liquid mixture. 
+			Distillation is a unit operation, or a physical separation process, and not a chemical reaction.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DISTILLERY_HELP">
 			<Text>City must have improved source of [ICON_RES_SUGAR] Sugar or [ICON_RES_WHEAT] Wheat nearby.</Text>

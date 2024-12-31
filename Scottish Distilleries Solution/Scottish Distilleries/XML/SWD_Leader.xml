@@ -45,13 +45,13 @@
 	<Trait_FreePromotionUnitCombats>
 		<Row>
 			<TraitType>TRAIT_LAST_OF_THE_FREE</TraitType>
-			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-			<PromotionType>PROMOTION_SWD_LAND_OF_THE_FREE_INFO</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_SWD_LAST_OF_THE_FREE</PromotionType>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LAST_OF_THE_FREE</TraitType>
-			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
-			<PromotionType>PROMOTION_SWD_LAND_OF_THE_FREE_INFO</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_SWD_DEFENDER_OF_SCOTLAND</PromotionType>
 		</Row>
 	</Trait_FreePromotionUnitCombats>
 	
