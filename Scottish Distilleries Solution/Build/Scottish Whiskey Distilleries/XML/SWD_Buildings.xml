@@ -26,9 +26,7 @@
 			<PortraitIndex>19</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 			<!-- Scottish Whiskey Distillery -->
-			<River>true</River>
-			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<FreshWater>true</FreshWater>
 		</Row>
 		<Row>
 			<Type>BUILDING_PLAINDISTILLERY</Type>
@@ -47,6 +45,17 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 	</Buildings>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_WHISKEYDISTILLERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PLAINDISTILLERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
 
 	<Building_YieldChanges>
 		<Row>
@@ -71,5 +80,23 @@
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
 		</Row>
 	</Building_LocalResourceOrs>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_PLAINDISTILLERY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WHISKEYDISTILLERY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WHISKEYDISTILLERY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
 	
 </GameData>

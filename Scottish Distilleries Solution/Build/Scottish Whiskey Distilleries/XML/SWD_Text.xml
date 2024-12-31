@@ -142,7 +142,6 @@
 		<Row Tag="TXT_KEY_TRAIT_LAST_OF_THE_FREE">
 			<Text>
 				Melee units receive a combat boost when there are two or more adjacent enemy units.
-				+1 [ICON_CULTURE] Culture for every two hill tiles adjacent to a city.
 			</Text>
 		</Row>
 		
@@ -159,7 +158,7 @@
 			physical separation process, and not a chemical reaction.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SWD_DISTILLERY_HELP">
-			<Text>City must have a river nearby, no ressource requirements.</Text>
+			<Text>City must have fresh water nearby, no ressource requirements.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DISTILLERY">
 			<Text>Plain Distillery</Text>
