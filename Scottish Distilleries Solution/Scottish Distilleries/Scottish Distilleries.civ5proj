@@ -8,13 +8,8 @@
     <ModVersion>1</ModVersion>
     <Stability>Alpha</Stability>
     <Teaser>Cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.</Teaser>
-    <Description>50 cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.[NEWLINE]
-[NEWLINE]
-Borrowing from the many Scotland Mods that came before me.
-JFD's The Kingdom of Scotland, Scottish Civilisation, Scotland, MC's Scotland. Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].[NEWLINE]
-[NEWLINE]
-The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Additions v5. Plain distilleries added for all civilizations.[NEWLINE]
-[NEWLINE]</Description>
+    <Description>50 cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.[NEWLINE][NEWLINE]Borrowing from the many Scotland Mods that came before me: JFD's The Kingdom of Scotland, Scottish Civilisation, Scotland, MC's Scotland. Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].[NEWLINE]
+[NEWLINE]The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Additions v5. Plain distilleries added for all civilizations.[NEWLINE][NEWLINE]Unique unit highlander replaces musketmen and riflemen. Model from JFD's The Kingdom of Scotland.</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>Pouakai, +ChAoS, JFD, TheTopCat, AUSTINNOYES</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -78,6 +73,11 @@ The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Ad
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>XML/SWD_Units.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>XML/SWD_UnitPromotions.xml</FileName>
       </Action>
       <Action>
@@ -108,7 +108,17 @@ The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Ad
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/SWD_IconTextureAtlases.xml</FileName>
+        <FileName>XML/SWD_CivIconAtlas.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/SWD_UnitIconAtlas.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/SWD_ArtDefines.sql</FileName>
       </Action>
     </ModActions>
     <ReloadAudioSystem>true</ReloadAudioSystem>
@@ -127,8 +137,11 @@ The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Ad
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Art" />
-    <Folder Include="Art\Atlas" />
+    <Folder Include="Art\CivAtlas" />
     <Folder Include="Art\AlphaAtlas" />
+    <Folder Include="Art\UnitModel" />
+    <Folder Include="Art\UnitAtlas" />
+    <Folder Include="SQL" />
     <Folder Include="Sounds" />
     <Folder Include="XML" />
   </ItemGroup>
@@ -169,27 +182,31 @@ The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Ad
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Atlas\SWD_128.dds">
+    <Content Include="Art\AlphaAtlas\SWD_Highlander_Flag_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Atlas\SWD_256.dds">
+    <Content Include="Art\CivAtlas\SWD_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Atlas\SWD_32.dds">
+    <Content Include="Art\CivAtlas\SWD_256.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Atlas\SWD_45.dds">
+    <Content Include="Art\CivAtlas\SWD_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Atlas\SWD_64.dds">
+    <Content Include="Art\CivAtlas\SWD_45.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Atlas\SWD_80.dds">
+    <Content Include="Art\CivAtlas\SWD_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivAtlas\SWD_80.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -205,6 +222,82 @@ The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Ad
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Art\UnitAtlas\Highlander_Atlas_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitAtlas\Highlander_Atlas_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitAtlas\Highlander_Atlas_32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitAtlas\Highlander_Atlas_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitAtlas\Highlander_Atlas_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitAtlas\Highlander_Atlas_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\celrm1.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\celrm1.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\celrm1.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\celrm1_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\celrm2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\celrm2.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\celrm2.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\celrm2_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\celrm3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\celrm3.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\celrm3.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\celrm3_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UnitModel\sv_Highlander.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Sounds\WillWallaceDOM.mp3">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -217,6 +310,18 @@ The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Ad
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="SQL\SWD_ArtDefines.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\SWD_UnitIconAtlas.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\SWD_Units.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="XML\SWD_UnitPromotions.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -225,7 +330,7 @@ The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Ad
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\SWD_IconTextureAtlases.xml">
+    <Content Include="XML\SWD_CivIconAtlas.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

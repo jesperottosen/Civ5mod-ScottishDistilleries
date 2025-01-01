@@ -52,12 +52,12 @@
 			<UnitAIType>UNITAI_SETTLE</UnitAIType>
 		</Row>
 	</Civilization_FreeUnits>
-		
+
 	<Civilization_UnitClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_SWD</CivilizationType>
-			<UnitClassType>UNITCLASS_GUN</UnitClassType>
-			<UnitType>UNIT_LONGSWORDSMAN</UnitType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			<UnitType>UNIT_SWD_HIGHLANDER </UnitType>
 		</Row>
 	</Civilization_UnitClassOverrides>
 

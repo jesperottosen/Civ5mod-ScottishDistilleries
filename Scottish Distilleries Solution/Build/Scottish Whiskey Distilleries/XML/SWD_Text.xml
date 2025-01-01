@@ -138,6 +138,20 @@
 				Combat bonus in hills (attack and defense) and combat bonus for fortified units.
 			</Text>
 		</Row>
+
+		<!-- HIGHLANDER -->
+		<Row Tag="TXT_KEY_UNIT_SWD_HIGHLANDER">
+			<Text>Highlander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SWD_HIGHLANDER">
+			<Text>Scottish unique musketman. Begins with combat bonus on hills.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SWD_HIGHLANDER_STRATEGY">
+			<Text>The Highlander is the unique Scottish replacement for the musketman and rifleman.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_SWD_HIGHLANDER_TEXT">
+			<Text>Though initially a word simply used to describe someone from the Highlands of Scotland, the term “Highlander” has went on to be used in a military sense. Highlanders started off by forming clans in their native lands, creating a unique identity for them and their kinsmen. Over the years, this evolved into the Scottish surnames - the prefix “mac”, which is all too often used in a faux-Scottish sense, indicated that the person is a “son of” the name that follows. As weaponry evolved, Highlanders became increasingly trained in gunpowder technology, which was put to great - and devastating - use during the turmoil of the Stuart era. Scotland’s military regiments, though the Highlanders in particular, would often have marching bands that still exist to this day. Performances from these marching bands often feature the Bagpipes, a distinctive Scottish sound that is commonly associated with the Highlanders. Though the Highlands is probably one of the most distinctive areas of Scottish culture, the consensus is that they will mostly vote No in the referendum.</Text>
+		</Row>
 		
 		<!-- Scottish Distillery Building-->
 		<Row Tag="TXT_KEY_BUILDING_SWD_DISTILLERY">

@@ -27,6 +27,7 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 			<!-- Scottish Whiskey Distillery -->
 			<FreshWater>true</FreshWater>
+			<Happiness>2</Happiness>
 		</Row>
 		<Row>
 			<Type>BUILDING_PLAINDISTILLERY</Type>
@@ -43,6 +44,7 @@
 			<HurryCostModifier>25</HurryCostModifier>
 			<PortraitIndex>19</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+			<Happiness>1</Happiness>
 		</Row>
 	</Buildings>
 
