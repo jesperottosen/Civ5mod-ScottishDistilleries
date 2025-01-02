@@ -151,8 +151,7 @@
 			<Text>The Whiskey Distillery adds a small increase to a city's [ICON_GOLD] Gold and promotes [ICON_RESEARCH] Science and [ICON_HAPPINESS_1] Happiness.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SWD_DISTILLERY_TEXT">
-			<Text>Distillation is a method of separating mixtures based on differences in volatility 
-			of components in a boiling liquid mixture. Distillation is a unit operation, or a 
+			<Text>Distillation is a method of separating mixtures based on differences in volatility of components in a boiling liquid mixture. Distillation is a unit operation, or a 
 			physical separation process, and not a chemical reaction.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SWD_DISTILLERY_HELP">
@@ -163,8 +162,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DISTILLERY_STRATEGY">
 			<Text>
-				The distillery adds a small increase to a city's [ICON_GOLD] Gold and [ICON_HAPPINESS_1] Happiness output if the city has an
-				improved source of [ICON_RES_SUGAR] Sugar or [ICON_RES_WHEAT] Wheat nearby.
+				The distillery adds a small increase to a city's [ICON_GOLD] Gold and [ICON_HAPPINESS_1] Happiness output if the city has an improved source of [ICON_RES_SUGAR] Sugar or [ICON_RES_WHEAT] Wheat nearby.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_DISTILLERY_TEXT">
