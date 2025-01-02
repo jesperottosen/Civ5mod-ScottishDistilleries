@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by yepzer on 12/29/2024 3:09:06 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Denonyms -->
+		<Row Tag="TXT_KEY_SWD_DESC">
+			<Text>Scottish Whiskey Distilleries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWD_SHORT_DESC">
+			<Text>Scotch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWD_ADJECTIVE">
+			<Text>Scottish</Text>
+		</Row>
+			
+		<!--  DOM Text -->
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_SWD_TEXT">
+			<Text>
+				Wilyham Wallas,
+				[NEWLINE]Our antecessowris that we suld of reide,
+				[NEWLINE]And hald in mynde thar nobille worthi deid,
+				[NEWLINE]We lat ourslide throu verray sleuthfulnes,
+				[NEWLINE]And castis us ever till uther besynes.
+				[NEWLINE]Till honour ennymyis is our haile entent,
+				[NEWLINE]It has beyne seyne in thir tymys bywent.
+				[NEWLINE]Our ald ennemys cummyn of Saxonys blud,
+				[NEWLINE]That nevyr yeit to Scotland wald do gud,
+				[NEWLINE]But ever on fors and contrar haile thar will,
+				[NEWLINE]Quhow gret kyndnes thar has beyne kyth thaim till.
+				[NEWLINE]It is weyle knawyne on mony divers syde,
+				[NEWLINE]How they haff wrocht in to thar mychty pryde,
+				[NEWLINE]To hald Scotland at undyr evermar,
+				[NEWLINE]Bot God abuff has maid thar mycht to par.
+				[NEWLINE]Yhit we suld thynk one our bearis befor,
+				[NEWLINE]Of that parablys as now I say no mor.
+				[NEWLINE]We reide of ane rycht famous of renowne,
+				[NEWLINE]Of worthi blude that ryngis in this regioune,
+				[NEWLINE]And hensfurth I will my proces hald,
+				[NEWLINE]Of Wilyham Wallas yhe haf hard beyne tald.
+				[NEWLINE]
+				[NEWLINE]Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		
+		<!-- Diplo lines -->
+		<Row Tag="TXT_KEY_LEADER_SWD_WILLWALLACE_GREETING_1">
+			<Text>Welcome to the domain of free men. Be warned that we will fight dearly for our lives if it comes to that.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SWD_WILLWALLACE_FIRST_GREETING_2">
+			<Text>A great king you are! Tell me, do your people hold liberty dearly to their hearts? Or do they forsake it?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SWD_WILLWALLACE_DEFEATED_1">
+			<Text>What I feared has happened. An enemy of the worst kind has triumphed over us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SWD_WILLWALLACE_DEFEATED_2">
+			<Text>You may take our lands, but you may never take our freedom. We will return. </Text>
+		</Row>
+		
+		<!-- Civilopedias -->
+		<Row Tag="TXT_KEY_SWD">
+			<Text>Scottish Whiskey Distilleries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_SWD_TITLE">
+			<Text>Scottish Whiskey Distilleries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_SWD_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_SWD_TEXT_1">
+			<Text>
+				According to the Scotch Whisky Association there were 151 distilleries licensed to produce Scotch whisky as of May 2024.
+				[NEWLINE]Scotch whisky (Scottish Gaelic: uisge-beatha na h-Alba; Scots: whisky/whiskie [ˈʍɪski] or whusk(e)y [ˈʍʌski]), often simply called whisky or Scotch, is malt whisky or grain whisky (or a blend of the two) made in Scotland. 
+				[NEWLINE]The first known written mention of Scotch whisky is in the Exchequer Rolls of Scotland of 1494. All Scotch whisky was originally made from malted barley. Commercial distilleries began introducing whisky made from wheat and rye in the late 18th century.
+			</Text>
+		</Row>
+
+
+		<!-- Leader Civilopedia -->
+		<Row Tag="TXT_KEY_LEADER_SWD_WILLWALLACE_DESC">
+			<Text>William Wallace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SWD_WILLWALLACE_LIVED">
+			<Text>1270 to 1329 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SWD_WILLWALLACE_NAME">
+			<Text>William Wallace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SWD_WILLWALLACE_SUBTITLE">
+			<Text>Hero of Scotland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SWD_WILLWALLACE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SWD_WILLWALLACE_TEXT_1">
+			<Text>
+				William Wallace is one of Scotland's most revered heroes. He began as an outlaw, but became a leader of men, taking victory over the English at Stirling Bridge in 1297. He was not of noble blood, and perhaps this is why his memory is held so dear.
+				[NEWLINE]
+				[NEWLINE]Sir William Wallace was a Scottish knight who became one of the main leaders during the First War of Scottish Independence. In August 1305, Wallace was captured in Robroyston, near Glasgow, and handed over to King Edward I of England, who had him hanged, drawn and quartered for high treason and crimes against English civilians.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_SWD_WILLWALLACE_FACTOID_HEADING">
+			<Text>William Wallace Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SWD_WILLWALLACE_FACTOID_TEXT">
+			<Text>Sir William Wallace (Scottish Gaelic: Uilleam Uallas, pronounced [ˈɯʎam ˈuəl̪ˠəs̪]; Norman French: William le Waleys.</Text>
+		</Row>
+
+		<!-- Promotion Tags -->
+		<Row Tag="TXT_KEY_PROMOTION_SWD_LAST_OF_THE_FREE">
+			<Text>Last of the Free</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SWD_LAST_OF_THE_FREE_HELP">
+			<Text>[ICON_STRENGTH] Combat bonus in hills (attack and defense)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SWD_DEFENDER_OF_SCOTLAND">
+			<Text>Fierce Highlander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SWD_DEFENDER_OF_SCOTLAND_HELP">
+			<Text>[ICON_STRENGTH] 50% combat boost against fortified units.</Text>
+		</Row>
+
+		<!-- Unique Ability -->
+		<Row Tag="TXT_KEY_TRAIT_LAST_OF_THE_FREE_SHORT">
+			<Text>Last of the Free</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_LAST_OF_THE_FREE">
+			<Text>
+				Combat bonus in hills (attack and defense) and combat bonus for fortified units.
+			</Text>
+		</Row>
+
+		<!-- HIGHLANDER -->
+		<Row Tag="TXT_KEY_UNIT_SWD_HIGHLANDER">
+			<Text>Highlander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SWD_HIGHLANDER">
+			<Text>Scottish unique musketman. Begins with [COLOR_POSITIVE_TEXT]combat bonus on hills.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SWD_HIGHLANDER_STRATEGY">
+			<Text>The Highlander is the unique Scottish replacement for the musketman and rifleman.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_SWD_HIGHLANDER_TEXT">
+			<Text>Though initially a word simply used to describe someone from the Highlands of Scotland, the term “Highlander” has went on to be used in a military sense. Highlanders started off by forming clans in their native lands, creating a unique identity for them and their kinsmen. Over the years, this evolved into the Scottish surnames - the prefix “mac”, which is all too often used in a faux-Scottish sense, indicated that the person is a “son of” the name that follows. As weaponry evolved, Highlanders became increasingly trained in gunpowder technology, which was put to great - and devastating - use during the turmoil of the Stuart era. Scotland’s military regiments, though the Highlanders in particular, would often have marching bands that still exist to this day. Performances from these marching bands often feature the Bagpipes, a distinctive Scottish sound that is commonly associated with the Highlanders. Though the Highlands is probably one of the most distinctive areas of Scottish culture, the consensus is that they will mostly vote No in the referendum.</Text>
+		</Row>
+		
+		<!-- Scottish Distillery Building-->
+		<Row Tag="TXT_KEY_BUILDING_SWD_DISTILLERY">
+			<Text>Whiskey Distillery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SWD_DISTILLERY_STRATEGY">
+			<Text>The Whiskey Distillery adds a small increase to a city's [ICON_GOLD] Gold and promotes [ICON_RESEARCH] Science and [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SWD_DISTILLERY_TEXT">
+			<Text>Distillation is a method of separating mixtures based on differences in volatility of components in a boiling liquid mixture. Distillation is a unit operation, or a 
+			physical separation process, and not a chemical reaction.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SWD_DISTILLERY_HELP">
+			<Text>City must have fresh water nearby, no ressource requirements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DISTILLERY">
+			<Text>Plain Distillery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DISTILLERY_STRATEGY">
+			<Text>
+				The distillery adds a small increase to a city's [ICON_GOLD] Gold and [ICON_HAPPINESS_1] Happiness output if the city has an improved source of [ICON_RES_SUGAR] Sugar or [ICON_RES_WHEAT] Wheat nearby.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_DISTILLERY_TEXT">
+			<Text>Distillation is a method of separating mixtures based on differences in volatility of components in a boiling liquid mixture. 
+			Distillation is a unit operation, or a physical separation process, and not a chemical reaction.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DISTILLERY_HELP">
+			<Text>City must have improved source of [ICON_RES_SUGAR] Sugar or [ICON_RES_WHEAT] Wheat nearby.</Text>
+		</Row>
+		
+		<!-- City List -->
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_01">
+			<Text>Glenturret</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_02">
+			<Text>Bowmore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_03">
+			<Text>Strathisla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_04">
+			<Text>Balblair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_05">
+			<Text>Oban</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_06">
+			<Text>Glen Garioch 1797</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_07">
+			<Text>Blair Athol 1798</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_08">
+			<Text>Highland Park</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_09">
+			<Text>Rosebank</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_10">
+			<Text>Tobermory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_11">
+			<Text>Glenburgie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_12">
+			<Text>Jura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_13">
+			<Text>Royal Brackla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_14">
+			<Text>Ardbeg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_15">
+			<Text>Laphroaig</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_16">
+			<Text>Lagavulin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_17">
+			<Text>Bladnoch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_18">
+			<Text>Teaninich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_19">
+			<Text>Brora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_20">
+			<Text>Linkwood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_21">
+			<Text>Wolfburn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_22">
+			<Text>Auchentoshan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_23">
+			<Text>Mortlach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_24">
+			<Text>Balmenach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_25">
+			<Text>Cardhu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_26">
+			<Text>Fettercairn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_27">
+			<Text>Glenlivet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_28">
+			<Text>Macallan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_29">
+			<Text>Miltonduff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_30">
+			<Text>Ben Nevis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_31">
+			<Text>Edradour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_32">
+			<Text>Glencadam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_33">
+			<Text>Port Ellen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_34">
+			<Text>Benrinnes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_35">
+			<Text>Glendronach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_36">
+			<Text>Pulteney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_37">
+			<Text>Springbank</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_38">
+			<Text>Talisker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_39">
+			<Text>Glen Scotia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_40">
+			<Text>Glengoyne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_41">
+			<Text>Annandale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_42">
+			<Text>Glenfarclas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_43">
+			<Text>Glenkinchie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_44">
+			<Text>Glen Ord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_45">
+			<Text>Dalmore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_46">
+			<Text>Glen Grant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_47">
+			<Text>Glenmorangie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_48">
+			<Text>Royal Lochnagar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_49">
+			<Text>Caol Ila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWD_50">
+			<Text>Dailuaine</Text>
+		</Row>
+
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_SWD_00">
+			<Text>Nessie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SWD_01">
+			<Text>Robert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SWD_02">
+			<Text>Angus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SWD_03">
+			<Text>Ewan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SWD_04">
+			<Text>Alastair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SWD_05">
+			<Text>Fiona</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SWD_06">
+			<Text>Mary</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		
+	</Language_en_US>
+  
+</GameData>

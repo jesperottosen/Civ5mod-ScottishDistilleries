@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by yepzer on 12/31/2024 2:31:20 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_MUSKETMAN</Class>
+			<Type>UNIT_SWD_HIGHLANDER</Type>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<Combat>25</Combat>
+			<Cost>200</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SWD_HIGHLANDER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_SWD_HIGHLANDER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SWD_HIGHLANDER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SWD_HIGHLANDER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>5</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_RIFLEMAN</UnitArtInfo>
+			<!-- <UnitArtInfo>ART_DEF_SWD_HIGHLANDER</UnitArtInfo> -->
+			<UnitFlagAtlas>UNIT_SWD_HIGHLANDER_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>SWD_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>	
+	</Units>
+
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_SWD_HIGHLANDER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>sv_Highlander.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
+			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+  
+</GameData>

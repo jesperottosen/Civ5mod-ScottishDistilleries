@@ -1,6 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by Pouakai -->
 <!-- Modified by yepzer -->
-
-<LeaderScene FallbackImage="SWD_leaderhead_WillWallace.dds">
-</LeaderScene>
+<LeaderScene FallbackImage="SWD_leaderhead_WillWallace.dds"> </LeaderScene>

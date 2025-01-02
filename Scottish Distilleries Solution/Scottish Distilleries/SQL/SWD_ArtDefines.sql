@@ -1,16 +1,4 @@
 --==========================================================================================================================
--- ART DEFINES
---==========================================================================================================================	
-
-------------------------------
--- Audio_2DSounds
-------------------------------	
-INSERT INTO Audio_2DSounds 
-		(ScriptID, 										SoundID, 							SoundType, 		MinVolume, 	MaxVolume,	IsMusic,	Looping)
-VALUES	('AS2D_AMBIENCE_LEADER_SWD_WILLWALLACE_AMBIENCE', 	'SND_DOM_SPEECH_SWD_WILLWALLACE_AMBIENCE', 	'GAME_SFX', 	40, 		40, 		0, 			1),
-		('AS2D_LEADER_MUSIC_SWD_WILLWALLACE_PEACE', 			'SND_LEADER_MUSIC_SWD_WILLWALLACE_PEACE', 'GAME_MUSIC', 	60, 		60, 		1, 			0),
-		('AS2D_LEADER_MUSIC_SWD_WILLWALLACE_WAR', 			'SND_LEADER_MUSIC_SWD_WILLWALLACE_WAR', 	'GAME_MUSIC', 	60, 		60, 		1,			0);
---==========================================================================================================================
 -- UNIT GRAPHICS
 --==========================================================================================================================	
 

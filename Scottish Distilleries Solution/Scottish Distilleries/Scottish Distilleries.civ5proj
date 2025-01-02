@@ -298,15 +298,7 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Sounds\WillWallaceDOM.mp3">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Sounds\WillWallacePeace.mp3">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Sounds\WillWallaceWar.mp3">
+    <Content Include="Sounds\WillWallace.mp3">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -336,7 +328,7 @@
     </Content>
     <Content Include="XML\SWD_Leaderhead.xml">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="XML\SWD_Sounds.xml">
       <SubType>Lua</SubType>
