@@ -190,10 +190,10 @@
 			<Text>Oban</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_SWD_06">
-			<Text>Glen Garioch 1797</Text>
+			<Text>Glen Garioch</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_SWD_07">
-			<Text>Blair Athol 1798</Text>
+			<Text>Blair Athol</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_SWD_08">
 			<Text>Highland Park</Text>

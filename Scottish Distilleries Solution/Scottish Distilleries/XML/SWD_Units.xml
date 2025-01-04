@@ -3,11 +3,13 @@
 <GameData>
 	<Units>
 		<Row>
-			<Class>UNITCLASS_MUSKETMAN</Class>
+			<Class>UNITCLASS_RIFLEMAN</Class>
 			<Type>UNIT_SWD_HIGHLANDER</Type>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
-			<Combat>25</Combat>
+			<Combat>30</Combat>
 			<Cost>200</Cost>
+			<FaithCost>400</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -23,8 +25,8 @@
 			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>30</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
+			<XPValueAttack>4</XPValueAttack>
+			<XPValueDefense>4</XPValueDefense>
 			<Conscription>5</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_RIFLEMAN</UnitArtInfo> 
 			<!-- <UnitArtInfo>ART_DEF_SWD_HIGHLANDER</UnitArtInfo> -->
@@ -57,9 +59,16 @@
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
-			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+			<UnitClassType>UNITCLASS_GREAT_WAR_INFANTRY</UnitClassType>
 		</Row>
 	</Unit_ClassUpgrades>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
 	
 	<Unit_Flavors>
 		<Row>
@@ -70,7 +79,7 @@
 		<Row>
 			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>7</Flavor>
+			<Flavor>9</Flavor>
 		</Row>
 	</Unit_Flavors>
 
