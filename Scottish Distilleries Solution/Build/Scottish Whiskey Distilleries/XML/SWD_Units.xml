@@ -29,7 +29,6 @@
 			<XPValueDefense>4</XPValueDefense>
 			<Conscription>5</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_RIFLEMAN</UnitArtInfo> 
-			<!-- <UnitArtInfo>ART_DEF_SWD_HIGHLANDER</UnitArtInfo> -->
 			<UnitFlagAtlas>UNIT_SWD_HIGHLANDER_FLAG</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>SWD_UNIT_ATLAS</IconAtlas>

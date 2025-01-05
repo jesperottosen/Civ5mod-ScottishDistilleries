@@ -50,29 +50,9 @@
     <File md5="D44046603F2CE506E0A17E9E8C18C054" import="1">Art/SWD_leaderhead_WillWallace.dds</File>
     <File md5="DC73AA6D08615DC386FA3C519BD8297C" import="1">Art/SWD_DOM_Mod.dds</File>
     <File md5="EDBF00ED59C94E9D917C7B18EC71591B" import="1">Art/SWD_Map_Mod.dds</File>
-    <File md5="1D5E8E24D7723A174754C94B45119496" import="1">Art/UnitAtlas/Highlander_Atlas_128.dds</File>
-    <File md5="2CE8BDBF31E411456DF0279EDC0FFE14" import="1">Art/UnitAtlas/Highlander_Atlas_256.dds</File>
-    <File md5="9A070CEEE1621FEA9EF027F07D6C17B3" import="1">Art/UnitAtlas/Highlander_Atlas_32.dds</File>
-    <File md5="905E658C567CDE8EF670209142194B83" import="1">Art/UnitAtlas/Highlander_Atlas_45.dds</File>
-    <File md5="A425012C522FF5CE5F4C52E2D0CC4DC5" import="1">Art/UnitAtlas/Highlander_Atlas_64.dds</File>
-    <File md5="65281131CA3175134209235731B5C9E8" import="1">Art/UnitAtlas/Highlander_Atlas_80.dds</File>
-    <File md5="7E2B12DDB1122C97CA3EC544F298F1E8" import="1">Art/UnitModel/celrm1.dds</File>
-    <File md5="800F1CC08E530A32DFD1F1B26943561F" import="1">Art/UnitModel/celrm1.fxsxml</File>
-    <File md5="E62C9E36790354191ED4DF06F3C81E8E" import="1">Art/UnitModel/celrm1.gr2</File>
-    <File md5="4214D79CCE7E4490677E58718CD7CC37" import="1">Art/UnitModel/celrm1_sref.dds</File>
-    <File md5="2A29AB9A4C7146C2389321921D3C146B" import="1">Art/UnitModel/celrm2.dds</File>
-    <File md5="13269347A05B32ACF5DE7DA4E2110A76" import="1">Art/UnitModel/celrm2.fxsxml</File>
-    <File md5="6F4202DB60B6DA0BF46E9E8010940337" import="1">Art/UnitModel/celrm2.gr2</File>
-    <File md5="3B69A268486C530A29BE6A1300B88CB2" import="1">Art/UnitModel/celrm2_sref.dds</File>
-    <File md5="106804F920D37458C09DE40E8A72A707" import="1">Art/UnitModel/celrm3.dds</File>
-    <File md5="CE456ABF5CDE4877687A64841706CC70" import="1">Art/UnitModel/celrm3.fxsxml</File>
-    <File md5="BDDD2A89B93ED92656FC8B38381E9B04" import="1">Art/UnitModel/celrm3.gr2</File>
-    <File md5="654CC813F8B9EEBD19491EFE94BA2A9F" import="1">Art/UnitModel/celrm3_sref.dds</File>
-    <File md5="B9415B95F18D9779E8042D99A8A531C4" import="1">Art/UnitModel/sv_Highlander.dds</File>
     <File md5="6B76BC35E3FFF9F3DE8384517683B026" import="1">Sounds/WillWallace.mp3</File>
     <File md5="3E78FF853EF39BB678F1D5D2CE7D9FCF" import="1">SQL/SWD_ArtDefines.sql</File>
-    <File md5="3EDEFD066ADB87DE4CF3E39570A1082E" import="0">XML/SWD_UnitIconAtlas.xml</File>
-    <File md5="4D22CEAE9E4560D275F4D9EECF2C3248" import="0">XML/SWD_Units.xml</File>
+    <File md5="17B58C49D700753B75DC8C3220C6E65C" import="0">XML/SWD_Units.xml</File>
     <File md5="9BFB5F64851134A6618CCCC3220329FB" import="0">XML/SWD_UnitPromotions.xml</File>
     <File md5="2D6E9D7F284CAF78183124A466A5F910" import="0">XML/SWD_Buildings.xml</File>
     <File md5="BAC7090C5F53FB6154C3DD0146DB8AA3" import="0">XML/SWD_CivIconAtlas.xml</File>
@@ -93,7 +73,6 @@
       <UpdateDatabase>XML/SWD_Sounds.xml</UpdateDatabase>
       <UpdateDatabase>XML/SWD_Leaderhead.xml</UpdateDatabase>
       <UpdateDatabase>XML/SWD_CivIconAtlas.xml</UpdateDatabase>
-      <UpdateDatabase>XML/SWD_UnitIconAtlas.xml</UpdateDatabase>
       <UpdateDatabase>SQL/SWD_ArtDefines.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
