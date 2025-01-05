@@ -56,14 +56,9 @@
 	<Civilization_UnitClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_SWD</CivilizationType>
-			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
-			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
-		</Row>
-	<!--	<Row>
-			<CivilizationType>CIVILIZATION_SWD</CivilizationType>
 			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
-			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
-		</Row> -->
+			<UnitType>UNIT_JFD_HIGHLANDER</UnitType>
+		</Row>
 	</Civilization_UnitClassOverrides>
 
 	<Civilization_BuildingClassOverrides>

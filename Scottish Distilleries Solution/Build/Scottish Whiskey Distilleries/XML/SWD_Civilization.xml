@@ -56,15 +56,17 @@
 	<Civilization_UnitClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_SWD</CivilizationType>
-			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
-			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
-		</Row>
-	<!--	<Row>
-			<CivilizationType>CIVILIZATION_SWD</CivilizationType>
 			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
-			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
-		</Row> -->
+			<UnitType>UNIT_JFD_HIGHLANDER</UnitType>
+		</Row>
 	</Civilization_UnitClassOverrides>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
 
 	<Civilization_BuildingClassOverrides>
 		<Row>

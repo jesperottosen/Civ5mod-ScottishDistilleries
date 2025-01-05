@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
 	<UnitPromotions>
 		<!--cannot be chosen-->
 		<Row>

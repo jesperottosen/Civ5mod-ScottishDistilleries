@@ -5,10 +5,10 @@
     <ProjectGuid>{3036bbfc-eee8-42a9-a594-85712257fa87}</ProjectGuid>
     <Name>Scottish Whiskey Distilleries</Name>
     <Guid>b6a96d61-a9a1-4d62-ac44-4a948dd037f5</Guid>
-    <ModVersion>1</ModVersion>
-    <Stability>Stable</Stability>
+    <ModVersion>2</ModVersion>
+    <Stability>Alpha</Stability>
     <Teaser>Cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.</Teaser>
-    <Description>50 cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.[NEWLINE][NEWLINE]Borrowing from the many Scotland Mods that came before me: JFD's The Kingdom of Scotland, Scottish Civilisation, Scotland, MC's Scotland. Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].[NEWLINE]
+    <Description>50 cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], Unique Whiskey Distillery and Unique Unit Scotch Highlander.[NEWLINE][NEWLINE]Borrowing from the many Scotland Mods that came before me: JFD's The Kingdom of Scotland,MC's Scotland. Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].[NEWLINE]
 [NEWLINE]The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Additions v5. Plain distilleries added for all civilizations.[NEWLINE][NEWLINE]Unique unit highlander replaces musketmen and riflemen. Currently in vanilla rifleman model.</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>Pouakai, +ChAoS, JFD, TheTopCat, AUSTINNOYES</SpecialThanks>
@@ -73,11 +73,6 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/SWD_Units.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
         <FileName>XML/SWD_UnitPromotions.xml</FileName>
       </Action>
       <Action>
@@ -113,7 +108,12 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/SWD_UnitIconAtlas.xml</FileName>
+        <FileName>Core/Scotland_ArtDefines.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Core/Scotland_GameDefines.sql</FileName>
       </Action>
     </ModActions>
     <ReloadAudioSystem>true</ReloadAudioSystem>
@@ -134,72 +134,126 @@
     <Folder Include="Art" />
     <Folder Include="Art\CivAtlas" />
     <Folder Include="Art\AlphaAtlas" />
+    <Folder Include="Art\Graphics" />
     <Folder Include="Art\UnitAtlas" />
+    <Folder Include="Core" />
     <Folder Include="Sounds" />
     <Folder Include="XML" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Art\AlphaAtlas\SWD_Alpha_128.dds">
+    <Content Include="Art\AlphaAtlas\MC_ScotlandAlpha_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SWD_Alpha_16.dds">
+    <Content Include="Art\AlphaAtlas\MC_ScotlandAlpha_16.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SWD_Alpha_22.dds">
+    <Content Include="Art\AlphaAtlas\MC_ScotlandAlpha_22.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SWD_Alpha_24.dds">
+    <Content Include="Art\AlphaAtlas\MC_ScotlandAlpha_24.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SWD_Alpha_32.dds">
+    <Content Include="Art\AlphaAtlas\MC_ScotlandAlpha_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SWD_Alpha_45.dds">
+    <Content Include="Art\AlphaAtlas\MC_ScotlandAlpha_45.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SWD_Alpha_48.dds">
+    <Content Include="Art\AlphaAtlas\MC_ScotlandAlpha_48.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SWD_Alpha_64.dds">
+    <Content Include="Art\AlphaAtlas\MC_ScotlandAlpha_64.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SWD_Alpha_80.dds">
+    <Content Include="Art\AlphaAtlas\MC_ScotlandAlpha_80.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\AlphaAtlas\SWD_Highlander_Flag_32.dds">
+    <Content Include="Art\AlphaAtlas\Unit_Highlander_Flag_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivAtlas\SWD_128.dds">
+    <Content Include="Art\CivAtlas\MC_Scotland_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivAtlas\SWD_256.dds">
+    <Content Include="Art\CivAtlas\MC_Scotland_256.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivAtlas\SWD_32.dds">
+    <Content Include="Art\CivAtlas\MC_Scotland_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivAtlas\SWD_45.dds">
+    <Content Include="Art\CivAtlas\MC_Scotland_45.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivAtlas\SWD_64.dds">
+    <Content Include="Art\CivAtlas\MC_Scotland_64.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivAtlas\SWD_80.dds">
+    <Content Include="Art\CivAtlas\MC_Scotland_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\celrm1.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\celrm1.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\celrm1.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\celrm1_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\celrm2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\celrm2.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\celrm2.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\celrm2_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\celrm3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\celrm3.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\celrm3.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\celrm3_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\sv_Highlander.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -215,41 +269,41 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\Highlander_Atlas_128.dds">
+    <Content Include="Art\UnitAtlas\JFD_ScotlandAtlas_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\Highlander_Atlas_256.dds">
+    <Content Include="Art\UnitAtlas\JFD_ScotlandAtlas_256.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\Highlander_Atlas_32.dds">
+    <Content Include="Art\UnitAtlas\JFD_ScotlandAtlas_32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\Highlander_Atlas_45.dds">
+    <Content Include="Art\UnitAtlas\JFD_ScotlandAtlas_45.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\Highlander_Atlas_64.dds">
+    <Content Include="Art\UnitAtlas\JFD_ScotlandAtlas_64.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitAtlas\Highlander_Atlas_80.dds">
+    <Content Include="Art\UnitAtlas\JFD_ScotlandAtlas_80.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Core\Scotland_ArtDefines.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Core\Scotland_GameDefines.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Sounds\WillWallace.mp3">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="XML\SWD_UnitIconAtlas.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="XML\SWD_Units.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\SWD_UnitPromotions.xml">
       <SubType>Lua</SubType>
