@@ -115,11 +115,6 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/SWD_UnitIconAtlas.xml</FileName>
       </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/SWD_ArtDefines.sql</FileName>
-      </Action>
     </ModActions>
     <ReloadAudioSystem>true</ReloadAudioSystem>
     <Homepage>http://https://github.com/jesperottosen/Civ5mod-ScottishDistilleries</Homepage>
@@ -139,9 +134,7 @@
     <Folder Include="Art" />
     <Folder Include="Art\CivAtlas" />
     <Folder Include="Art\AlphaAtlas" />
-    <Folder Include="Art\UnitModel" />
     <Folder Include="Art\UnitAtlas" />
-    <Folder Include="SQL" />
     <Folder Include="Sounds" />
     <Folder Include="XML" />
   </ItemGroup>
@@ -246,63 +239,7 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\UnitModel\celrm1.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\UnitModel\celrm1.fxsxml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\UnitModel\celrm1.gr2">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\UnitModel\celrm1_sref.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\UnitModel\celrm2.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\UnitModel\celrm2.fxsxml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\UnitModel\celrm2.gr2">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\UnitModel\celrm2_sref.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\UnitModel\celrm3.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\UnitModel\celrm3.fxsxml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\UnitModel\celrm3.gr2">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\UnitModel\celrm3_sref.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\UnitModel\sv_Highlander.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
     <Content Include="Sounds\WillWallace.mp3">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="SQL\SWD_ArtDefines.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
