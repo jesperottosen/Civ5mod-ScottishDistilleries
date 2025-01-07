@@ -81,10 +81,6 @@
 			<CivilizationType>CIVILIZATION_SWD</CivilizationType>
 			<RegionType>REGION_HILLS</RegionType>
 		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_SWD</CivilizationType>
-			<RegionType>REGION_FOREST</RegionType>
-		</Row>
 	</Civilization_Start_Region_Priority>
 	
 	<Civilization_Start_Region_Avoid>

@@ -61,13 +61,6 @@
 		</Row>
 	</Civilization_UnitClassOverrides>
 
-	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_SWD_HIGHLANDER</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
-		</Row>
-	</Unit_FreePromotions>
-
 	<Civilization_BuildingClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_SWD</CivilizationType>
@@ -87,10 +80,6 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_SWD</CivilizationType>
 			<RegionType>REGION_HILLS</RegionType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_SWD</CivilizationType>
-			<RegionType>REGION_FOREST</RegionType>
 		</Row>
 	</Civilization_Start_Region_Priority>
 	

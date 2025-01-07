@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_JFD_HIGHLANDER</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
 	<UnitPromotions>
 		<!--cannot be chosen-->
 		<Row>
@@ -21,7 +28,7 @@
 			<Help>TXT_KEY_PROMOTION_SWD_DEFENDER_OF_SCOTLAND_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
-			<PortraitIndex>50</PortraitIndex>
+			<PortraitIndex>23</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<LostWithUpgrade>false</LostWithUpgrade>
 			<HillsAttack>20</HillsAttack>
@@ -54,14 +61,14 @@
 		<Row>
 			<PromotionType>PROMOTION_SWD_DEFENDER_OF_SCOTLAND</PromotionType>
 			<TerrainType>TERRAIN_HILL</TerrainType>
-			<Attack>10</Attack>
-			<Defense>10</Defense>
+			<Attack>20</Attack>
+			<Defense>20</Defense>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_SWD_LAST_OF_THE_FREE</PromotionType>
 			<TerrainType>TERRAIN_HILL</TerrainType>
-			<Attack>10</Attack>
-			<Defense>10</Defense>
+			<Attack>20</Attack>
+			<Defense>20</Defense>
 		</Row>
 	</UnitPromotions_Terrains>
 </GameData>
