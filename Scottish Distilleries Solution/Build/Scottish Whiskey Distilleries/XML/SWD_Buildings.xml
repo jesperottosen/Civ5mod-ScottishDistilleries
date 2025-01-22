@@ -11,7 +11,7 @@
 
 	<Buildings>
 		<Row>
-			<Type>BUILDING_WHISKEYDISTILLERY</Type>
+			<Type>BUILDING_WHISKYDISTILLERY</Type>
 			<BuildingClass>BUILDINGCLASS_DISTILLERY</BuildingClass>
 			<Cost>120</Cost>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
@@ -25,7 +25,7 @@
 			<HurryCostModifier>25</HurryCostModifier>
 			<PortraitIndex>19</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
-			<!-- Scottish Whiskey Distillery -->
+			<!-- Scottish WHISKY Distillery -->
 			<FreshWater>true</FreshWater>
 			<Happiness>2</Happiness>
 		</Row>
@@ -50,7 +50,7 @@
 
 	<Building_ClassesNeededInCity>
 		<Row>
-			<BuildingType>BUILDING_WHISKEYDISTILLERY</BuildingType>
+			<BuildingType>BUILDING_WHISKYDISTILLERY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
 		</Row>
 		<Row>
@@ -61,7 +61,7 @@
 
 	<Building_YieldChanges>
 		<Row>
-			<BuildingType>BUILDING_WHISKEYDISTILLERY</BuildingType>
+			<BuildingType>BUILDING_WHISKYDISTILLERY</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>3</Yield>
 		</Row>
@@ -85,14 +85,14 @@
 
 	<Building_Flavors>
 		<Row>
-			<BuildingType>BUILDING_WHISKEYDISTILLERY</BuildingType>
+			<BuildingType>BUILDING_WHISKYDISTILLERY</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_WHISKEYDISTILLERY</BuildingType>
+			<BuildingType>BUILDING_WHISKYDISTILLERY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>2</Flavor>
 		</Row>
 	</Building_Flavors>
 	

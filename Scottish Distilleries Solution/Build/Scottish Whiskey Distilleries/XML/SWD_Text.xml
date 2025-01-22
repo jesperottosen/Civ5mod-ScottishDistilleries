@@ -4,7 +4,7 @@
 	<Language_en_US>
 		<!-- Denonyms -->
 		<Row Tag="TXT_KEY_SWD_DESC">
-			<Text>Scottish Whiskey Distilleries</Text>
+			<Text>Scottish Whisky Distilleries</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SWD_SHORT_DESC">
 			<Text>Scotch</Text>
@@ -56,10 +56,10 @@
 		
 		<!-- Civilopedias -->
 		<Row Tag="TXT_KEY_SWD">
-			<Text>Scottish Whiskey Distilleries</Text>
+			<Text>Scottish Whisky Distilleries</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVLOPEDIA_SWD_TITLE">
-			<Text>Scottish Whiskey Distilleries</Text>
+			<Text>Scottish Whisky Distilleries</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVLOPEDIA_SWD_HEADING_1">
 			<Text>History</Text>
@@ -151,10 +151,10 @@
 		
 		<!-- Scottish Distillery Building-->
 		<Row Tag="TXT_KEY_BUILDING_SWD_DISTILLERY">
-			<Text>Whiskey Distillery</Text>
+			<Text>Whisky Distillery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SWD_DISTILLERY_STRATEGY">
-			<Text>The Whiskey Distillery adds a small increase to a city's [ICON_GOLD] Gold and promotes [ICON_RESEARCH] Science and [ICON_HAPPINESS_1] Happiness.</Text>
+			<Text>The Whisky Distillery adds a small increase to a city's [ICON_GOLD] Gold and promotes [ICON_RESEARCH] Science and [ICON_HAPPINESS_1] Happiness.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SWD_DISTILLERY_TEXT">
 			<Text>Distillation is a method of separating mixtures based on differences in volatility of components in a boiling liquid mixture. Distillation is a unit operation, or a 

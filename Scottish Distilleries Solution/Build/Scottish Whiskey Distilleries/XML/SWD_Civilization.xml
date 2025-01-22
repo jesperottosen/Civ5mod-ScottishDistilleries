@@ -65,7 +65,7 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_SWD</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_DISTILLERY</BuildingClassType>
-			<BuildingType>BUILDING_WHISKEYDISTILLERY</BuildingType>
+			<BuildingType>BUILDING_WHISKYDISTILLERY</BuildingType>
 		</Row>
 	</Civilization_BuildingClassOverrides>
 

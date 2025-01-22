@@ -3,11 +3,11 @@
   <Properties>
     <Name>Scottish Whiskey Distilleries</Name>
     <Teaser>Cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.</Teaser>
-    <Description>50 cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], Unique Whiskey Distillery and Unique Unit Scotch Highlander.
+    <Description>50 cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], Unique Whisky Distillery and Unique Unit Scotch Highlander.
 [NEWLINE]
 [NEWLINE]Building from the many Scotland Mods that came before me: JFD's The Kingdom of Scotland,MC's Scotland. Though there can be [COLOR_POSITIVE_TEXT]only one Scotland[ENDCOLOR].
 [NEWLINE]
-[NEWLINE]The Whiskey Distillery Unique Building is based on MOD: Winery and Distillery Additions v5. Plain distilleries added for all civilizations.[NEWLINE]
+[NEWLINE]The Whisky Distillery Unique Building is based on MOD: Winery and Distillery Additions v5. Plain distilleries added for all civilizations.[NEWLINE]
 [NEWLINE]The Civilization comes with combat bonus in hills (attack and defense) and combat bonus for fortified units.</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>Pouakai, +ChAoS, JFD, TheTopCat, AUSTINNOYES</SpecialThanks>
@@ -74,16 +74,16 @@
     <File md5="A425012C522FF5CE5F4C52E2D0CC4DC5" import="1">Art/UnitAtlas/JFD_ScotlandAtlas_64.dds</File>
     <File md5="65281131CA3175134209235731B5C9E8" import="1">Art/UnitAtlas/JFD_ScotlandAtlas_80.dds</File>
     <File md5="18CF721EF4512B477C53B65457001C2B" import="0">Core/Scotland_ArtDefines.sql</File>
-    <File md5="A10A2084221C698CCCA4AA6AB3993F5C" import="0">Core/Scotland_GameDefines.sql</File>
+    <File md5="A62A2257C5C8B6828A3FE1EB5297214B" import="0">Core/Scotland_GameDefines.sql</File>
     <File md5="6B76BC35E3FFF9F3DE8384517683B026" import="1">Sounds/WillWallace.mp3</File>
-    <File md5="6AEBA4727AFA3F03083931026B7DB955" import="0">XML/SWD_UnitPromotions.xml</File>
-    <File md5="2D6E9D7F284CAF78183124A466A5F910" import="0">XML/SWD_Buildings.xml</File>
+    <File md5="153CDFBE59865D695A3527CE3DCDF845" import="0">XML/SWD_UnitPromotions.xml</File>
+    <File md5="3D01C8C28784266AEF92F9BC236D506A" import="0">XML/SWD_Buildings.xml</File>
     <File md5="5C1B219B9E69804F9CF633DAA4542FCE" import="0">XML/SWD_CivIconAtlas.xml</File>
     <File md5="95986061E0D4495A54A1AD4D1F8ABF4A" import="1">XML/SWD_Leaderhead.xml</File>
     <File md5="5D522836F1C8BC93A96F7F9107C9C282" import="0">XML/SWD_Sounds.xml</File>
-    <File md5="35EFF1CC06F700EE319FD987A8D41A3A" import="0">XML/SWD_Civilization.xml</File>
+    <File md5="3739B4EF632CFEBBB1DFB37695777A42" import="0">XML/SWD_Civilization.xml</File>
     <File md5="C0D72191148BEB254C0EB8BE80B6C134" import="0">XML/SWD_Leader.xml</File>
-    <File md5="3456FFDC02973528B12C379EDB88D0F3" import="0">XML/SWD_Text.xml</File>
+    <File md5="B1F8FFFF90F8B22D4F1D46B4792D234D" import="0">XML/SWD_Text.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
