@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <ProjectGuid>{3036bbfc-eee8-42a9-a594-85712257fa87}</ProjectGuid>
-    <Name>Scottish Whiskey Distilleries</Name>
+    <Name>Scottish Whisky Distilleries</Name>
     <Guid>b6a96d61-a9a1-4d62-ac44-4a948dd037f5</Guid>
     <ModVersion>2</ModVersion>
     <Stability>Stable</Stability>
