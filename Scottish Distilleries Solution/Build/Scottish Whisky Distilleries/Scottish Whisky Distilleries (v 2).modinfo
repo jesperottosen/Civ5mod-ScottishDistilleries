@@ -74,9 +74,9 @@
     <File md5="A425012C522FF5CE5F4C52E2D0CC4DC5" import="1">Art/UnitAtlas/JFD_ScotlandAtlas_64.dds</File>
     <File md5="65281131CA3175134209235731B5C9E8" import="1">Art/UnitAtlas/JFD_ScotlandAtlas_80.dds</File>
     <File md5="18CF721EF4512B477C53B65457001C2B" import="0">Core/Scotland_ArtDefines.sql</File>
-    <File md5="A62A2257C5C8B6828A3FE1EB5297214B" import="0">Core/Scotland_GameDefines.sql</File>
+    <File md5="C0D47389FE2D11DB3A0BC2B9D43E2A05" import="0">Core/Scotland_GameDefines.sql</File>
     <File md5="6B76BC35E3FFF9F3DE8384517683B026" import="1">Sounds/WillWallace.mp3</File>
-    <File md5="153CDFBE59865D695A3527CE3DCDF845" import="0">XML/SWD_UnitPromotions.xml</File>
+    <File md5="91A334C52292BAA9536EC70565BFD44D" import="0">XML/SWD_UnitPromotions.xml</File>
     <File md5="3D01C8C28784266AEF92F9BC236D506A" import="0">XML/SWD_Buildings.xml</File>
     <File md5="5C1B219B9E69804F9CF633DAA4542FCE" import="0">XML/SWD_CivIconAtlas.xml</File>
     <File md5="95986061E0D4495A54A1AD4D1F8ABF4A" import="1">XML/SWD_Leaderhead.xml</File>

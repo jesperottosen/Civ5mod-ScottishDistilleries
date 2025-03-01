@@ -5,7 +5,7 @@
 --------------------------------	
 INSERT INTO Units 	
 		(Type, 					Class, PrereqTech, Combat, Cost,  FaithCost, RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 					Civilopedia, 						Strategy, 								Help, 								MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, XPValueDefense, XPValueAttack, GoodyHutUpgradeUnitClass, UnitArtInfo, 					UnitFlagIconOffset, UnitFlagAtlas,						PortraitIndex, 	IconAtlas)
-SELECT	'UNIT_JFD_HIGHLANDER', 	Class, PrereqTech, '34', '200',  '400', RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, 'TXT_KEY_UNIT_JFD_HIGHLANDER', 	'TXT_KEY_CIV5_JFD_HIGHLANDER_TEXT', 'TXT_KEY_UNIT_JFD_HIGHLANDER_STRATEGY', 'TXT_KEY_UNIT_HELP_JFD_HIGHLANDER',	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, '4', '4', GoodyHutUpgradeUnitClass, 'ART_DEF_UNIT_JFD_HIGHLANDER',	0,					'JFD_UNIT_FLAG_HIGHLANDER_ATLAS',	2, 				'JFD_SCOTLAND_ATLAS'
+SELECT	'UNIT_JFD_HIGHLANDER', 	Class, PrereqTech, '42', '200',  '400', RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, 'TXT_KEY_UNIT_JFD_HIGHLANDER', 	'TXT_KEY_CIV5_JFD_HIGHLANDER_TEXT', 'TXT_KEY_UNIT_JFD_HIGHLANDER_STRATEGY', 'TXT_KEY_UNIT_HELP_JFD_HIGHLANDER',	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, '4', '4', GoodyHutUpgradeUnitClass, 'ART_DEF_UNIT_JFD_HIGHLANDER',	0,					'JFD_UNIT_FLAG_HIGHLANDER_ATLAS',	2, 				'JFD_SCOTLAND_ATLAS'
 FROM Units WHERE Type = 'UNIT_RIFLEMAN';
 --------------------------------
 -- UnitGameplay2DScripts
