@@ -5,7 +5,7 @@
     <ProjectGuid>{3036bbfc-eee8-42a9-a594-85712257fa87}</ProjectGuid>
     <Name>Scottish Whisky Distilleries</Name>
     <Guid>b6a96d61-a9a1-4d62-ac44-4a948dd037f5</Guid>
-    <ModVersion>2</ModVersion>
+    <ModVersion>3</ModVersion>
     <Stability>Stable</Stability>
     <Teaser>Cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], UB distillery and UB highlander.</Teaser>
     <Description>50 cities with [COLOR_POSITIVE_TEXT]distillery names[ENDCOLOR], Unique Whisky Distillery and Unique Unit Scotch Highlander.
@@ -26,7 +26,7 @@
     <RootNamespace>Scottish Distilleries</RootNamespace>
     <ModReferences>
     </ModReferences>
-    <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
+    <ReloadLandmarkSystem>false</ReloadLandmarkSystem>
     <ReloadUnitSystem>true</ReloadUnitSystem>
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
     <ModDependencies>
